@@ -69,6 +69,8 @@ app.delete('/alunos/:id', (req, res)=>{
 })
 
 
+
 app.use((req, res)=>res.sendFile(`${BASEDIR}/404.html`))
+//teste de auteração
 
 app.listen(PORTA,()=>console.log(`Rodando em: http://localhost:${PORTA} \n${statusCon}`))
